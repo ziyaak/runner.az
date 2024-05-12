@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+.top-header .social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  word-spacing: 0.2em;
+  gap: 20px;
+}
+.top-header .social-links .icons {
+  margin-bottom: 30px;
+}
+.top-header .contact-us {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-decoration: none;
+}
+.top-header .contact-us a {
+  text-decoration: none;
+  color: black;
+  gap: 10px;
+}
+
+.social-links {
+  margin-left: 350px;
+}
+
+.number-phone {
+  margin-right: 15px;
+}
+
+.mail {
+  margin-right: 440px;
+}
+
+.logo a {
+  display: block;
+  width: 168px;
+  height: 44px;
+  background-image: url(/runner.work/assets/img/logo.svg);
+}
+
+.right-side {
+  display: flex;
+}
+.right-side img {
+  width: 44px;
+  height: 45px;
+  margin-left: 20px;
+}
+.right-side .langc {
+  display: flex;
+}
+.right-side .langc a {
+  display: block;
+  width: 48px;
+  height: 24px;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.messenger {
+  display: block;
+}
+
+.container .left-side {
+  display: flex;
+  align-items: center;
+}
+.container .left-side .logo {
+  width: 168px;
+  height: 44px;
+  background-image: url(/runner.work/assets/img/logo.svg);
+}
+.container .left-side img {
+  width: 44px;
+  height: 45px;
+  margin-left: 20px;
+}
+.container .left-side .langc a {
+  display: block;
+  width: 48px;
+  height: 24px;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+.container .right-side {
+  display: flex;
+  align-items: center;
+}
+.container .right-side .messenger ul {
+  display: flex;
+  list-style: none;
+}
+.container .right-side .messenger ul li {
+  margin-right: 10px;
+}
+.container .right-side .messenger ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li a {
+  font-size: 24px;
+}
+
+.log-in {
+  height: 38px;
+  margin: 10px;
+  padding: 15px 25px;
+  line-height: 38px;
+  color: #fff;
+  background: #f8172f;
+  border-radius: 19px;
+}
+.log-in span {
+  color: #fff;
+}
+
+.sing-in a {
+  color: #f8172f;
+}
+
+.boxe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.img-box {
+  position: relative;
+  margin-top: 20px;
+}
+.img-box img {
+  width: 525px;
+  height: 512px;
+}
+
+.img-box img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.info-box h2 {
+  padding: 0 0 40px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.info-box .text-edit {
+  width: 650px;
+  word-break: normal;
+}
+.info-box .text-edit p {
+  padding: 0 0 60px;
+  font-size: 17px;
+  line-height: 1.63;
+}
+.info-box .order-lnk a {
+  display: inline-block;
+  height: 60px;
+  padding: 0 40px;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background: #f8172f;
+  border-radius: 30px;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.advantage-box {
+  width: 650px;
+}
+.advantage-box h1 {
+  padding: 0 0 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.advantage-box p {
+  max-width: 480px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.47;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-box img {
+  width: 60px;
+  margin: 0 auto 10px;
+}
+
+.about-box p {
+  margin: 0 auto 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <g fill="none" fill-rule="nonzero">
+        <path fill="#545C64" d="M56 6.563v29.64l-4.102 3.281H3.576L0 36.204V6.561z"/>
+        <path fill="#4BB9EC" d="M3.281 9.844H52.72v29.64H3.28z"/>
+        <path fill="#0095FF" d="M28 9.844h24.719v29.64H28z"/>
+        <path fill="#545C64" d="M36.104 44.931l-3.28 9.953h-9.647l-3.281-9.953z"/>
+        <path fill="#2F3337" d="M36.104 44.931l-3.28 9.953H28v-9.953z"/>
+        <path fill="#545C64" d="M13.234 52.719h29.532V56H13.234z"/>
+        <path fill="#444D55" d="M28 52.719h14.766V56H28z"/>
+        <path fill="#FFF" d="M6.672 0h42.656v41.125H6.672z"/>
+        <path fill="#E6E9EE" d="M28 0h21.328v41.125H28z"/>
+        <path fill="#FF3746" d="M13.234 3.281v9.844h29.532V3.281z"/>
+        <path fill="#BE232D" d="M28 3.281h14.766v9.844H28z"/>
+        <g fill="#E5E5E5">
+            <path d="M13.234 16.406h29.532v3.282H13.234zM13.234 23.078h29.532v3.281H13.234zM13.234 29.64h29.532v3.282H13.234z"/>
+        </g>
+        <path fill="#C0C0C0" d="M28 16.406h14.766v3.282H28zM28 23.078h14.766v3.281H28zM28 29.64h14.766v3.282H28z"/>
+        <path fill="#545C64" d="M0 36.203h56v9.844H0z"/>
+        <path fill="#444D55" d="M28 36.203h28v9.844H28z"/>
+    </g>
+</svg>
